@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    margin-top: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    font-size: 10px;
+    padding: 0 10px;
+}
+
+body, a {
+    background-color: hsl(0, 0%, 95%);
+}
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header a {
+    color: #000;
+    font-size: 16px;
+    text-transform: unset;
+    padding: 0 5px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: initial;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 40px 30px;
+}
+
+img {
+    width: 45px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+}
+
+p::first-letter {
+    text-transform: uppercase;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 40px;
+}
+
+a {
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.bright-orange a {
+    color: hsl(31, 77%, 52%);
+}
+
+.dark-cyan a {
+    color: hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan a {
+    color: hsl(179, 100%, 13%);
+}
+
+a:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+.bright-orange {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+
+
+.dark-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.very-dark-cyan {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+@media screen and (min-width: 376px) {
+    body {
+        font-size: 18px;
+        padding: 0 80px;
+        width: 70%;
+        margin: 70px auto 0;
+    }
+
+    main {
+        min-height: 40vh;
+    }
+    
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding: 50px 40px;
+    }
+
+    p {
+        margin-bottom: 100px;
+    }
+
+    .bright-orange {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .very-dark-cyan {
+        border-radius: 0 10px 10px 0;
+    }
+}
